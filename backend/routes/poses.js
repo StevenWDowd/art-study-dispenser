@@ -5,3 +5,7 @@ const express = require("express");
 const { NotFoundError, BadRequestError } = require("./expressError");
 
 const router = express.Router();
+
+/**
+ * GET: a basic reference for drawing.
+ */
